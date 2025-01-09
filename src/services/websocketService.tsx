@@ -58,4 +58,4 @@ export class WebSocketService {
 }
 
 // Create a singleton instance - replace with your FastAPI server URL
-export const websocketService = new WebSocketService('ws://localhost:8000');
+export const websocketService = new WebSocketService('wss://stockanalysis-zoha.onrender.com');
